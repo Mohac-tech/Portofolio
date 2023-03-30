@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,600&family=Rubik+Iso&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 13px;
+    background-color: rgb(75,0,130);
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    top: 0px;
+    z-index: 1;
+}
+
+header li a {
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Rubik Iso', cursive;
+    font-weight: 700;
+    font-size: 18px;
+    color: 	rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.mylogo img {
+    height: 40px;
+}
+
+.ctt {
+    font-family: 'Chakra Petch', sans-serif;
+    color: 	rgb(255, 255, 255);
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    padding: 0px 10px;
+   text-decoration: none;
+   display: inline-block;
+}
+
+h2 { 
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Rubik Iso', cursive;
+}
+
+#body {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: -0px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    background-color: #F8F8FF;
+}
+
+body {
+    background-color:#fff;
+    background-image:linear-gradient(135deg, transparent 0%, #fff 25%, #fff 75%, transparent 100%), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAIklEQVQoU2N89+7dfwYsQEhIiBEkzDgkFGDzAbIY2Cv4AACvrBgJjYNGfwAAAABJRU5ErkJggg==);
+}
+
+div .thename {
+    background: rgb(182,182,207);
+    background: radial-gradient(circle, rgba(182,182,207,1) 0%, rgba(255,255,255,1) 88%);
+    background-color: rgb(182,182,207);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='100%25' gradientTransform='rotate(206,479,273)'%3E%3Cstop offset='0' stop-color='%23FFFFFF'/%3E%3Cstop offset='1' stop-color='%23FFFFFF'/%3E%3C/linearGradient%3E%3Cpattern patternUnits='userSpaceOnUse' id='b' width='609' height='507.5' x='0' y='0' viewBox='0 0 1080 900'%3E%3Cg fill-opacity='0.04'%3E%3Cpolygon fill='%23444' points='90 150 0 300 180 300'/%3E%3Cpolygon points='90 150 180 0 0 0'/%3E%3Cpolygon fill='%23AAA' points='270 150 360 0 180 0'/%3E%3Cpolygon fill='%23DDD' points='450 150 360 300 540 300'/%3E%3Cpolygon fill='%23999' points='450 150 540 0 360 0'/%3E%3Cpolygon points='630 150 540 300 720 300'/%3E%3Cpolygon fill='%23DDD' points='630 150 720 0 540 0'/%3E%3Cpolygon fill='%23444' points='810 150 720 300 900 300'/%3E%3Cpolygon fill='%23FFF' points='810 150 900 0 720 0'/%3E%3Cpolygon fill='%23DDD' points='990 150 900 300 1080 300'/%3E%3Cpolygon fill='%23444' points='990 150 1080 0 900 0'/%3E%3Cpolygon fill='%23DDD' points='90 450 0 600 180 600'/%3E%3Cpolygon points='90 450 180 300 0 300'/%3E%3Cpolygon fill='%23666' points='270 450 180 600 360 600'/%3E%3Cpolygon fill='%23AAA' points='270 450 360 300 180 300'/%3E%3Cpolygon fill='%23DDD' points='450 450 360 600 540 600'/%3E%3Cpolygon fill='%23999' points='450 450 540 300 360 300'/%3E%3Cpolygon fill='%23999' points='630 450 540 600 720 600'/%3E%3Cpolygon fill='%23FFF' points='630 450 720 300 540 300'/%3E%3Cpolygon points='810 450 720 600 900 600'/%3E%3Cpolygon fill='%23DDD' points='810 450 900 300 720 300'/%3E%3Cpolygon fill='%23AAA' points='990 450 900 600 1080 600'/%3E%3Cpolygon fill='%23444' points='990 450 1080 300 900 300'/%3E%3Cpolygon fill='%23222' points='90 750 0 900 180 900'/%3E%3Cpolygon points='270 750 180 900 360 900'/%3E%3Cpolygon fill='%23DDD' points='270 750 360 600 180 600'/%3E%3Cpolygon points='450 750 540 600 360 600'/%3E%3Cpolygon points='630 750 540 900 720 900'/%3E%3Cpolygon fill='%23444' points='630 750 720 600 540 600'/%3E%3Cpolygon fill='%23AAA' points='810 750 720 900 900 900'/%3E%3Cpolygon fill='%23666' points='810 750 900 600 720 600'/%3E%3Cpolygon fill='%23999' points='990 750 900 900 1080 900'/%3E%3Cpolygon fill='%23999' points='180 0 90 150 270 150'/%3E%3Cpolygon fill='%23444' points='360 0 270 150 450 150'/%3E%3Cpolygon fill='%23FFF' points='540 0 450 150 630 150'/%3E%3Cpolygon points='900 0 810 150 990 150'/%3E%3Cpolygon fill='%23222' points='0 300 -90 450 90 450'/%3E%3Cpolygon fill='%23FFF' points='0 300 90 150 -90 150'/%3E%3Cpolygon fill='%23FFF' points='180 300 90 450 270 450'/%3E%3Cpolygon fill='%23666' points='180 300 270 150 90 150'/%3E%3Cpolygon fill='%23222' points='360 300 270 450 450 450'/%3E%3Cpolygon fill='%23FFF' points='360 300 450 150 270 150'/%3E%3Cpolygon fill='%23444' points='540 300 450 450 630 450'/%3E%3Cpolygon fill='%23222' points='540 300 630 150 450 150'/%3E%3Cpolygon fill='%23AAA' points='720 300 630 450 810 450'/%3E%3Cpolygon fill='%23666' points='720 300 810 150 630 150'/%3E%3Cpolygon fill='%23FFF' points='900 300 810 450 990 450'/%3E%3Cpolygon fill='%23999' points='900 300 990 150 810 150'/%3E%3Cpolygon points='0 600 -90 750 90 750'/%3E%3Cpolygon fill='%23666' points='0 600 90 450 -90 450'/%3E%3Cpolygon fill='%23AAA' points='180 600 90 750 270 750'/%3E%3Cpolygon fill='%23444' points='180 600 270 450 90 450'/%3E%3Cpolygon fill='%23444' points='360 600 270 750 450 750'/%3E%3Cpolygon fill='%23999' points='360 600 450 450 270 450'/%3E%3Cpolygon fill='%23666' points='540 600 630 450 450 450'/%3E%3Cpolygon fill='%23222' points='720 600 630 750 810 750'/%3E%3Cpolygon fill='%23FFF' points='900 600 810 750 990 750'/%3E%3Cpolygon fill='%23222' points='900 600 990 450 810 450'/%3E%3Cpolygon fill='%23DDD' points='0 900 90 750 -90 750'/%3E%3Cpolygon fill='%23444' points='180 900 270 750 90 750'/%3E%3Cpolygon fill='%23FFF' points='360 900 450 750 270 750'/%3E%3Cpolygon fill='%23AAA' points='540 900 630 750 450 750'/%3E%3Cpolygon fill='%23FFF' points='720 900 810 750 630 750'/%3E%3Cpolygon fill='%23222' points='900 900 990 750 810 750'/%3E%3Cpolygon fill='%23222' points='1080 300 990 450 1170 450'/%3E%3Cpolygon fill='%23FFF' points='1080 300 1170 150 990 150'/%3E%3Cpolygon points='1080 600 990 750 1170 750'/%3E%3Cpolygon fill='%23666' points='1080 600 1170 450 990 450'/%3E%3Cpolygon fill='%23DDD' points='1080 900 1170 750 990 750'/%3E%3C/g%3E%3C/pattern%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='100%25' height='100%25'/%3E%3Crect x='0' y='0' fill='url(%23b)' width='100%25' height='100%25'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    color: 	rgb(75,0,130);
+}
+
+div .id {
+    margin-top: 90px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(logos/portrait.jpg);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
+div .thename {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 2em;
+    padding-top: 18%;
+    padding-bottom: 18%;
+}
+
+#Projects {
+    background-color: #f8f8ff ;
+    padding-bottom: 100px;
+}
+
+.logo{
+    margin-right: 700px;
+}
+
+#Skills {
+    align-content: center;
+    text-align: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#Skills li {
+    display: inline-block;
+    margin: 0 5px;
+    max-width: 100%;
+}
+
+.image {
+    height: 45px;
+}
+
+div .container-card {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10%;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+
+
+.card {
+    padding-top: 10px;
+    height: minmax(200px, auto);
+    width: 30%;
+    display: inline-block;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    border-radius: 8px;
+}
+
+@media screen and (max-width:1200px) {
+    .card{
+        width:40%
+    }
+    .
+}
+
+@media screen and (max-width:700px) {
+    .card{
+        width:90%
+    }
+}
+
+.card .images {
+   
+}
+
+.card .title {
+   text-align: center;
+   margin-bottom: 9px;
+}
+
+.container-about {
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 50px;
+}
+
+div .Skills {
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+h2 {
+    text-align: center;
+}
+
+#Resume {
+    text-align: center;
+}
+
+div .resume {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+#Contact {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.description p {
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    height: 80px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+button {
+    background-color: #483D8B;
+    height: 35px;
+    width: 90px;
+    border-radius: 5px;
+    border-color: rgb(75,0,130);
+}
+
+.line {
+    height: 5px;
+    width: 50px;
+    background: rgb(75,0,130);
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13px;
+    border-radius: 5px;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+}
+
+.description p {
+    font-size: 15px;
+}
+
+.thename h3 {
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.title h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container-contact {
+    height: 450px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: start;
+    background-color: rgb(75,0,130);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+}
+
+label {
+    font-family: 'Chakra Petch', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+input {
+    padding-top: 5px;
+    padding-left: 5px;
+    margin-bottom: 50px;
+    background-color: rgb(238, 238, 238);
+    border: rgb(238, 238, 238);
+    border-radius: 5px;
+}
+
+#name {
+    width: 400px;
+    height: 30px;
+}
+
+#email {
+    width: 400px;
+    height: 30px;
+}
+
+input[id="message"] {
+    box-sizing: border-box;
+    padding-bottom: 60px;
+  }
+
+
+.submit {
+    font-family: 'Chakra Petch', sans-serif;
+    margin-left: 300px;
+    color:#F8F8FF
+}
+
+#Contact {
+    margin-top: 60px;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 100px; 
+    text-align: center;
+    background-color: black;
+    color: #F8F8FF;
+    border: 2px solid black;
+}
+
+span {
+    padding-top: 50px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 20px;
+}
+
+.social li {
+    display: inline-block;
+    height: 33px;
+    width: 33px;
+    border-radius: 33%;
+    background-color: #F8F8FF;
+    border: 1px solid black;
+    margin-top: 15px;
+}
+
+.social img {
+    height: 35px;
+    cursor: pointer;
+}
+
+.line3 {
+    margin-top: 10px;
+    background-color:#F8F8FF;
+    height: 1px;
+    width: 200px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about {
+    padding-top: 15px;
+    transition: 15s;
+}
+
+.copyright p {
+ display: inline;
+}
+
+.copyright img {
+    margin-top: 15px;
+        background-color: #F8F8FF;
+        background-size: 30px;
+        border-radius: 50%;
+        height: 15px;
+        border-color: black;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 20px;
+}
+
+.language {
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.git {
+   margin-right: 5px;
+   margin-bottom: 5px
+}
+
+.language span{
+    font-size: small;
+}
+
+.language div{
+    margin-left: 5px;
+}
+
+.git img{
+    height: 27px;
+}
+
+.download {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+
+.container-success{
+    transition: 0.3s;
+    text-align: center;
+    background-color: rgb(75,0,130);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+    height: 200px;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    color: #F8F8FF;
+}
